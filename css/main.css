@@ -18,6 +18,21 @@ html {
     background-color: #ffc20f;
 }
 
+/* Safari */
+:-webkit-full-screen {
+    background-color: #ffc20f;
+}
+
+/* IE11 */
+:-ms-fullscreen {
+    background-color: #ffc20f;
+}
+
+/* Standard syntax */
+:fullscreen {
+    background-color: #ffc20f;
+}
+
 body {
     overflow: hidden;
 }
